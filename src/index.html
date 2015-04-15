@@ -5,9 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Fun!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="container">
+      <h1>Ocean Poachin' (blackmarket aquatic sales)</h1>
+      <div class="stock">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>Name</th>
+              <th>Species</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="http://i135.photobucket.com/albums/q156/Dark_Princess_Kaori/Cuttlefish.jpg" class="photo"></td>
+              <td>Cuttly</td>
+              <td>Cuttlefish</td>
+              <td><input type="submit" value="purchase" class="pure-button"</td>
+            </tr>
+            <tr>
+              <td><img src="http://poster.4teachers.org/imgFilePoster/379778.jpg" class="photo"></td>
+              <td>Flippy</td>
+              <td>Flatworm</td>
+              <td><input type="submit" value="purchase" class="pure-button"></td>
+            </tr>
+            <tr>
+              <td><img src="http://www.uneed2know.eu/general-photos/articles/blobfish-presentation.jpg" class="photo"></td>
+              <td>Bob</td>
+              <td>Blobfish</td>
+              <td><input type="submit" value="purchase" class="pure-button"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="submission">
+    <h2>Sell your poach!</h2>
+    <form class="form-horziontal">
+      <h3>Photo URL</h3>
+     <input type="text" value="paste photo url" class="form-control">
+     <h3>Name</h3>
+     <input type="text" value="poachee's name" class="form-control">
+     <h3>Species</h3>
+     <input type="text" value="species" class="form-control">
+     <input type="submit" value="submit" class="pure-button">
+     </form>
+     </div>
+     </div>
   </body>
 </html>
